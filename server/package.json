@@ -1,0 +1,29 @@
+{
+  "name": "wind-v4",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/server.js"
+  },
+  "dependencies": {
+    "@alicloud/pop-core": "^1.7.9",
+    "axios": "^0.19.2",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dolphin-framework-server": "0.0.65",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jimp": "^0.12.0",
+    "log4js": "^6.2.1",
+    "md5": "^2.2.1",
+    "moment": "^2.25.3",
+    "morgan": "~1.9.1",
+    "node-schedule": "^1.3.2",
+    "nodemailer": "^6.4.6",
+    "shortid": "^2.2.15",
+    "socket.io": "^2.3.0",
+    "svg-captcha": "^1.4.0",
+    "uuid": "^8.0.0"
+  }
+}

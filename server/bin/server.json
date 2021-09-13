@@ -1,0 +1,25 @@
+{
+  "name"        : "visitor_server",
+  "script"      : "./server.js",
+  "cwd"         : "./",
+  "watch": [
+    "service",
+    "module",
+    "routes"
+  ],
+  "ignore_watch" : [
+    "node_modules",
+    "logs",
+    "public",
+    "frontend"
+  ],
+  "watch_options": {
+    "followSymlinks": true
+  },
+  "instances":"1",
+  "error_file" : "./log/visitor_server-err.log",
+  "out_file"   : "./log/visitor_server-info.log",
+  "env": {
+    "NODE_ENV": "production"
+  }
+}

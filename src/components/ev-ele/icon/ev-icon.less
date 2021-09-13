@@ -1,0 +1,16 @@
+.public{
+  font-size: 16px;
+  background-size: cover !important;
+}
+.el-icon-red-push:before, .el-icon-invalid:before{
+  content: "\e611";
+  font-size: 16px;
+  visibility: hidden;
+}
+.el-icon-red-push:extend(.public){
+  background: url('./img/redPunch.svg') center no-repeat;
+}
+.el-icon-invalid:extend(.public){
+  background: url('./img/invalid.svg') center no-repeat;
+}
+
